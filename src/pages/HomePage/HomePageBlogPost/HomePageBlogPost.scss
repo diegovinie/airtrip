@@ -1,0 +1,25 @@
+.HomePageBlogPost {
+  &-container {
+    // height: 40vh;
+    width: 100%;
+    // background-color: olive;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  &-image {
+    // background-color: gray;
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // background-position: 50%;
+    & > img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+    }
+  }
+
+  &-content {
+    line-height: 1.5rem;
+  }
+}

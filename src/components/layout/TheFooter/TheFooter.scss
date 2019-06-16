@@ -1,0 +1,17 @@
+.TheFooter-container {
+  background-color: gray;
+  // height: 4rem;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  // padding: 1rem;
+
+  &-text {
+    margin: auto;
+    padding: 1rem;
+    & a {
+      color: #fff !important;
+      font-weight: bold;
+    }
+  }
+}

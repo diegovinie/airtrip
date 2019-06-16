@@ -1,0 +1,46 @@
+.TheMenuDialog {
+  &-container {
+    background-color: rgba(55, 55, 0, 0.9);
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    display: flex;
+    flex-direction: column;
+
+    &.show {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  &-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem !important;
+    line-height: 2rem !important;
+    color: #fff !important;
+  }
+}
+
+
+@media screen and (min-width: 550px) {
+  .TheMenuDialog {
+    &-container {
+      right: 23rem;
+      left: auto;
+      border-radius: 20px;
+
+      &.show {
+        top: 3rem;
+        padding: 1rem;
+        height: fit-content;
+      }
+    }
+  }
+}

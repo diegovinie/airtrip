@@ -1,0 +1,22 @@
+
+
+.GoUpButton {
+  position: fixed;
+  right: 0.5rem;
+  top: calc(100% - 4rem);
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background-color: rgba(0, 105, 0, 0.70);
+
+  & span {
+    color: #fff !important;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .GoUpButton {
+    display: none;
+  }
+}

@@ -1,0 +1,54 @@
+.form {
+  margin: auto 2rem;
+  display: flex;
+  flex-direction: column;
+
+  &-title {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  &-field {
+    // background-color: cyan;
+    width: 100%;
+    // padding: 1rem 0;
+  }
+
+  &-input {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    border-radius: 10px;
+    padding-bottom: 0.25rem;
+    padding-left: 1rem;
+    width: fill-available;
+    width: -moz-available;
+
+    &-error {
+      text-align: center;
+      margin-top: 0.25rem;
+      color: #fff;
+      overflow: hidden;
+      opacity: 0;
+
+      &.show {
+        opacity: 1;
+      }
+    }
+  }
+
+  &-buttons {
+    width: 100%;
+    text-align: center;
+
+    & button {
+      // margin: auto;
+      border: none;
+      background-color: black;
+      color: white;
+      width: 100%;
+      padding: 0.5rem 0;
+      font-size: 2rem;
+    }
+  }
+}
