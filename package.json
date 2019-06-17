@@ -5,6 +5,7 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
+    "bulma": "^0.7.5",
     "classnames": "^2.2.6",
     "firebase": "^6.1.1",
     "react": "^16.8.6",

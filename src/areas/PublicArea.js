@@ -1,8 +1,9 @@
 import React from 'react'
-import {Route} from 'react-router-dom'
+import {Route, Switch} from 'react-router-dom'
 // pages
 import HomePage from '../pages/HomePage'
 import PostPage from '../pages/PostPage'
+import MenuPage from '../pages/MenuPage'
 // components
 import TheMenu from '../components/layout/TheMenu'
 
@@ -11,8 +12,11 @@ const PublicArea = () => (
     <div className="App-menu">
       <TheMenu />
     </div>
-    <Route exact path="/" component={HomePage} />
-    <Route exact path="/posts/:id" component={PostPage} />
+    <Switch>
+      <Route exact path="/menu" component={MenuPage} />
+      <Route exact path="/posts/:id" component={PostPage} />
+      <Route exact path="/" component={HomePage} />
+    </Switch>
   </section>
 )
 
