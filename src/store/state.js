@@ -1,11 +1,18 @@
 export const initialState = {
   posts: [],
+  dishes: [],
   isAuth: false
 }
 
 export const reducer = (state, action) => {
   // console.log(state, action)
   switch (action.type) {
+    case 'setDishes':
+      return {
+        ...state,
+        dishes: action.dishes
+      }
+
     case 'setPosts':
       return {
         ...state,

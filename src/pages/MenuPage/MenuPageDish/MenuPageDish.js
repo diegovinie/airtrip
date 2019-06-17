@@ -1,8 +1,10 @@
 import React from 'react'
 import './MenuPageDish.css'
 
-const MenuPageDish = () => (
-  <div className="MenuPageDish-container column is-half-desktop"></div>
+const MenuPageDish = ({title}) => (
+  <div className="MenuPageDish-container column is-half-desktop">
+    {title}
+  </div>
 )
 
 export default MenuPageDish
