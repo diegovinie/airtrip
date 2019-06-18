@@ -1,84 +1,84 @@
-id,title,subtitle,content,price,category,photo,breakfast
-1,Egg Sandwich,Sandwich de Huevo,,3.5,All Day Breakfast Sandwichs,,1
+id,title,subtitle,content,price,category,photo,section
+1,Egg Sandwich,Sandwich de Huevo,,3.5,All Day Breakfast Sandwichs,,breakfast
 2,Egg and Meat Sandwich,,"Meat (Sausage or Bacon or Ham)
 Sandwich de Huevo y Carne 
-Carne (Huevo, Bacon o Jamón) ",4.5,All Day Breakfast Sandwichs,,1
-3,Ham and Cheese Sandwich,,Sandwich de jamón y queso,5.5,All Day Breakfast Sandwichs,,1
-4,Tropics’ Big Breakfast,,"2 Eggs* (Scrambled or Fried) 2 Huevos (Fritos o revueltos)  + 1 Favorite, 1 Side, 1 Breakfast Drink, 1 Toast",6.5,All Day Breakfast,,1
-5,Tropics’ Huge Breakfast,,"On Horse Breakfast Your Choose between Palomilla Steak, grupo A Chicken Breast, Boneless Fried Chicken Chunks,  Breaded Fish, Pork Chops or Fried Pork Chunks. + 2 Eggs* (Scrambled or Fried) 2 Huevos (Fritos o revueltos)  1 Side, 1 Breakfast Drink, 1 Toast",12,All Day Breakfast Sandwichs,,1
-6,Tropic’s Steak Sandwich,,"Pan con Bistec Cooked Onions, lettuce, tomatoes, mayonaisse  and potato sticks in cuban bread",6.5,Sandwichs,,1
-7,Tropic’s Farmer Sandwich,,"Sandwich Granjero Breaded chicken, lettuce, tomatoes, mayo  and potato sticks in cuban bread ",6.5,Sandwichs,,1
-8,The Classic Cuban Sandwich,,"Sandwich Cubano  Ham, pork, swiss cheese, pickles, mayonaisse  and mustard in cuban bread",5.5,Sandwichs,,1
-9,Midnight Sandwich,,"Sandwich de Media Noche Ham, pork, swiss cheese, pickles, mayonaisse  and mustard in sweet bread.",5.5,Sandwichs,,1
-10,Ground Beef Sandwich,,"Sandwich de Picadillo Ground beef with olives, raisins and potato sticks with mayonaisse",6.5,Sandwichs,,1
-11,B.L.T. Sandwich,,Bacon lettuce and tomatoes in cuban bread,5.5,Sandwichs,,1
-12,Grill Chicken Breast Sandwich,,"Sandwich de Pechuga de Pollo al Grill Cooked Onions, lettuce, tomatoes, mayonaisse  and potato sticks ",6.5,Sandwichs,,1
-13,Tuna Sandwich,,"Raw onions, celery, lettuce, tomatoes, mayonaisse in cuban bread",6.5,Sandwichs,,1
-14,½ Pound Bacon Cheese BURGER* $7.5,,"Hamburguesa Tropics American Yellow Cheese, Bacon, lettuce, tomatoes, mayonaisse and French Fries",7.5,Sandwichs,,1
-15,Pork Sandwich,,Pan con Lechón Cooked Onions and mayonaisse in cuban bread,6.5,Sandwichs,,1
-16,Breaded Fish Sandwich,,"Sandwich de Pescado Empanizado Lettuce, tomatoes, mayo and potato sticks",7.5,Sandwichs,,1
-17,Chicken Cesar Salad,Ens. César con Pollo,,8,Salads and Pastas,,
-18,Shrimps Cesar Salad,Ens. César Camarones,,13,Salads and Pastas,,
-19,Linguini Alfredo Chicken and Mushrooms,Lingüini Alfredo con Pollo y Champiñones ,,8.5,Salads and Pastas,,
-20,Linguini Pasta in Red Sauce with Beef,Lingüini en Salsa Roja con Churrasco,,11,Salads and Pastas,,
-21,Alfredo Lingüini Pasta with Shrimps,Lingüini en Salsa Alfredo con Camarones,,13,Salads and Pastas,,
-22,Chicken Breast Grilled with Onions, Pechuga de Pollo a la Plancha,,8,Chicken,,
-23,Boneless Fried Chicken,Chicharrón de Pollo,,8,Chicken,,
-24,Chicken Breast in Creamy Mushrooms, Pechuga de Pollo al Champiñón,,8.5,Chicken,,
-25,Breaded Chicken Milanesa,Milanesa de Pollo,,9.5,Chicken,,
-26,Sauted Pepper Chicken,Salteado de Pollo,,8.5,Chicken,,
-27,Chicken Fingers with French Fries,Deditos de Pollo,,9,Chicken,,
-28,Shredded Beef Cuban Style,Ropa Vieja,,8.5,Beef,,
-29,Shredded Beef Sauted with Onions,Vaca Frita,,8.5,Beef,,
-30,Palomilla Steak, Bistec de Palomilla,,8.5,Beef,,
-31,Breaded Palomilla Steak,Palomilla Empanizada,,9,Beef,,
-32,Pepper Steak,Salteado de Carne en Pimientos,,8.5,Beef,,
-33,Baby Churrasco* (8oz) ,,,11,Beef,,
-34,Liver Strips Italian Style,Hígado a la Italiana,,8,Beef,,
-35,Liver Strips Sauted,Salteado de Hígado,,8,Beef,,
-36,Baked Beef Brisket,Carne Horneada a la Cubana,,8.5,Beef,,
-37,Breaded Palomilla Milanesa,,,9.5,Beef,,
-38,Braised Pork Chunks,Masitas de Cerdo,,8,Pork,,
-39,Pork Chops on the Grill,Chuletas Plancha,,8.5,Pork,,
-40,Roasted Pork on the Griddle,Lechón Asado,,8,Pork,,
-41,Breaded Pork Loin, Lomo de Cerdo Escalope,,8.5,Pork,,
-42,Fish on the Griddle,Pescado a la Plancha,,9,Seafood,,
-43,Breaded Fish,Pescado Empanizado,,9,Seafood,,
-44,Ahi-Tuna Steak in Pepper Red Sauce,Ahi-Tuna en Salsa de Pimientos Rojos,,12,Seafood,,
-45,Shrimps Creole Sauce,Camarones Enchilados,,13,Seafood,,
-46,Shrimps in Garlic Sauce,Camarones al Ajillo,,13,Seafood,,
-47,Rice with Squids in their Own Ink,Arroz con Calamares en su Tinta,,8,Seafood,,
-48,Chicken Soup,Sopa de Pollo,,5.5,monday,,
-49,Grounded Beef Cuban Style,Picadillo a la Habanera,,8,monday,,
-50,Baked Chicken, Pollo al Horno,,8,monday,,
-51,Braised Pork Chunks,Masas de Cerdo,,8,monday,,
-52,Tuna Steack in Garlic Sauce,Atún Steak al Ajillo,,12,monday,,
-53,Beef Soup, Sopa de Res,,5.5,tuesday,,
-54,Pork Chops on the Griddle,Chuletas a la Plancha,,8.5,tuesday,,
-55,Chicken Breast in Creamy Mushrooms,Pechuga de Pollo al Champiñón,,8.5,tuesday,,
-56,Beef Stew,Carne con Papas,,8.5,tuesday,,
-57,Shrimps in Creole Sauce,Camarones Enchilados,,13,tuesday,,
-58,Mondongo Soup,,,5.5,wednesday,,
-59,Chicken Fricassee,Fricasse de Pollo,,8,wednesday,,
-60,Shredded Beef Cuban Style,Ropa Vieja,,8.5,wednesday,,
-61,Breaded Pork Loin.,Lomo de Cerdo Escalop,,8.5,wednesday,,
-62,Tuna Steak in Red Peppers Sauce,Atún Steak en Salsa de Pimientos,,12,wednesday,,
-63,Chicken and Beef Mix Soup,Sopa Cruzado de Res y Pollo,,5.5,thursday,,
-64,Baked Pork Ribs,Costillas al Horno,,8,thursday,,
-65,Yellow Rice with Chicken,Arroz Amarillo con Pollo,,8,thursday,,
-66,Pepper Steak,Salteado de Res		,,8.5,thursday,,
-67,Baked Beef Brisket,Carne Horneada a la Cubana,,8.5,thursday,,
-68,Fish in Lime Sauce,Pescado al Limón	,,9,thursday,,
-69,Fish Soup,Sopa de Pescado	,,6.5,friday,,
-70,Boneless Fried Chicken Chunks,Chicharrón de Pollo,,8,friday,,
-71,Pork Fricasse Stew,Fricasse de Cerdo	,,8,friday,,
-72,Rice with Squids in their Own Ink,Arroz con Calamares en su Tinta,,8,friday,,
-73,Shredded Beef Sauted with Onions,Vaca Frita,,8.5,friday,,
-74,Breaded Fish,Pescado Empanizado,,9,friday,,
-75,Beef Soup,Sopa de Res,,5.5,saturday,,
-76,Yellow Pork Rice,Arroz Amarillo con Cerdo,,8,saturday,,
-77,Baked Pork Ribs, Costillas de Cerdo al Horno,,8,saturday,,
-78,Grounded Beef Cuban Style,Picadillo de Res a la Habanera	,,8,saturday,,
-79,Italian Style Liver,Hígado a la Italiana,,8,saturday,,
-80,Chicken Breast Spain Style,Pollo a la Española,,8.5,saturday,,
-81,Shrimps in Ceole Sauce,Camarones Enchilados,,13,saturday,,
+Carne (Huevo, Bacon o Jamón) ",4.5,All Day Breakfast Sandwichs,,breakfast
+3,Ham and Cheese Sandwich,,Sandwich de jamón y queso,5.5,All Day Breakfast Sandwichs,,breakfast
+4,Tropics’ Big Breakfast,,"2 Eggs* (Scrambled or Fried) 2 Huevos (Fritos o revueltos)  + 1 Favorite, 1 Side, 1 Breakfast Drink, 1 Toast",6.5,All Day Breakfast,,breakfast
+5,Tropics’ Huge Breakfast,,"On Horse Breakfast Your Choose between Palomilla Steak, grupo A Chicken Breast, Boneless Fried Chicken Chunks,  Breaded Fish, Pork Chops or Fried Pork Chunks. + 2 Eggs* (Scrambled or Fried) 2 Huevos (Fritos o revueltos)  1 Side, 1 Breakfast Drink, 1 Toast",12,All Day Breakfast Sandwichs,,breakfast
+6,Tropic’s Steak Sandwich,,"Pan con Bistec Cooked Onions, lettuce, tomatoes, mayonaisse  and potato sticks in cuban bread",6.5,Sandwichs,,breakfast
+7,Tropic’s Farmer Sandwich,,"Sandwich Granjero Breaded chicken, lettuce, tomatoes, mayo  and potato sticks in cuban bread ",6.5,Sandwichs,,breakfast
+8,The Classic Cuban Sandwich,,"Sandwich Cubano  Ham, pork, swiss cheese, pickles, mayonaisse  and mustard in cuban bread",5.5,Sandwichs,,breakfast
+9,Midnight Sandwich,,"Sandwich de Media Noche Ham, pork, swiss cheese, pickles, mayonaisse  and mustard in sweet bread.",5.5,Sandwichs,,breakfast
+10,Ground Beef Sandwich,,"Sandwich de Picadillo Ground beef with olives, raisins and potato sticks with mayonaisse",6.5,Sandwichs,,breakfast
+11,B.L.T. Sandwich,,Bacon lettuce and tomatoes in cuban bread,5.5,Sandwichs,,breakfast
+12,Grill Chicken Breast Sandwich,,"Sandwich de Pechuga de Pollo al Grill Cooked Onions, lettuce, tomatoes, mayonaisse  and potato sticks ",6.5,Sandwichs,,breakfast
+13,Tuna Sandwich,,"Raw onions, celery, lettuce, tomatoes, mayonaisse in cuban bread",6.5,Sandwichs,,breakfast
+14,½ Pound Bacon Cheese BURGER* $7.5,,"Hamburguesa Tropics American Yellow Cheese, Bacon, lettuce, tomatoes, mayonaisse and French Fries",7.5,Sandwichs,,breakfast
+15,Pork Sandwich,,Pan con Lechón Cooked Onions and mayonaisse in cuban bread,6.5,Sandwichs,,breakfast
+16,Breaded Fish Sandwich,,"Sandwich de Pescado Empanizado Lettuce, tomatoes, mayo and potato sticks",7.5,Sandwichs,,breakfast
+17,Chicken Cesar Salad,Ens. César con Pollo,,8,Salads and Pastas,,everyday
+18,Shrimps Cesar Salad,Ens. César Camarones,,13,Salads and Pastas,,everyday
+19,Linguini Alfredo Chicken and Mushrooms,Lingüini Alfredo con Pollo y Champiñones ,,8.5,Salads and Pastas,,everyday
+20,Linguini Pasta in Red Sauce with Beef,Lingüini en Salsa Roja con Churrasco,,11,Salads and Pastas,,everyday
+21,Alfredo Lingüini Pasta with Shrimps,Lingüini en Salsa Alfredo con Camarones,,13,Salads and Pastas,,everyday
+22,Chicken Breast Grilled with Onions, Pechuga de Pollo a la Plancha,,8,Chicken,,everyday
+23,Boneless Fried Chicken,Chicharrón de Pollo,,8,Chicken,,everyday
+24,Chicken Breast in Creamy Mushrooms, Pechuga de Pollo al Champiñón,,8.5,Chicken,,everyday
+25,Breaded Chicken Milanesa,Milanesa de Pollo,,9.5,Chicken,,everyday
+26,Sauted Pepper Chicken,Salteado de Pollo,,8.5,Chicken,,everyday
+27,Chicken Fingers with French Fries,Deditos de Pollo,,9,Chicken,,everyday
+28,Shredded Beef Cuban Style,Ropa Vieja,,8.5,Beef,,everyday
+29,Shredded Beef Sauted with Onions,Vaca Frita,,8.5,Beef,,everyday
+30,Palomilla Steak, Bistec de Palomilla,,8.5,Beef,,everyday
+31,Breaded Palomilla Steak,Palomilla Empanizada,,9,Beef,,everyday
+32,Pepper Steak,Salteado de Carne en Pimientos,,8.5,Beef,,everyday
+33,Baby Churrasco* (8oz) ,,,11,Beef,,everyday
+34,Liver Strips Italian Style,Hígado a la Italiana,,8,Beef,,everyday
+35,Liver Strips Sauted,Salteado de Hígado,,8,Beef,,everyday
+36,Baked Beef Brisket,Carne Horneada a la Cubana,,8.5,Beef,,everyday
+37,Breaded Palomilla Milanesa,,,9.5,Beef,,everyday
+38,Braised Pork Chunks,Masitas de Cerdo,,8,Pork,,everyday
+39,Pork Chops on the Grill,Chuletas Plancha,,8.5,Pork,,everyday
+40,Roasted Pork on the Griddle,Lechón Asado,,8,Pork,,everyday
+41,Breaded Pork Loin, Lomo de Cerdo Escalope,,8.5,Pork,,everyday
+42,Fish on the Griddle,Pescado a la Plancha,,9,Seafood,,everyday
+43,Breaded Fish,Pescado Empanizado,,9,Seafood,,everyday
+44,Ahi-Tuna Steak in Pepper Red Sauce,Ahi-Tuna en Salsa de Pimientos Rojos,,12,Seafood,,everyday
+45,Shrimps Creole Sauce,Camarones Enchilados,,13,Seafood,,everyday
+46,Shrimps in Garlic Sauce,Camarones al Ajillo,,13,Seafood,,everyday
+47,Rice with Squids in their Own Ink,Arroz con Calamares en su Tinta,,8,Seafood,,everyday
+48,Chicken Soup,Sopa de Pollo,,5.5,monday,,daily
+49,Grounded Beef Cuban Style,Picadillo a la Habanera,,8,monday,,daily
+50,Baked Chicken, Pollo al Horno,,8,monday,,daily
+51,Braised Pork Chunks,Masas de Cerdo,,8,monday,,daily
+52,Tuna Steack in Garlic Sauce,Atún Steak al Ajillo,,12,monday,,daily
+53,Beef Soup, Sopa de Res,,5.5,tuesday,,daily
+54,Pork Chops on the Griddle,Chuletas a la Plancha,,8.5,tuesday,,daily
+55,Chicken Breast in Creamy Mushrooms,Pechuga de Pollo al Champiñón,,8.5,tuesday,,daily
+56,Beef Stew,Carne con Papas,,8.5,tuesday,,daily
+57,Shrimps in Creole Sauce,Camarones Enchilados,,13,tuesday,,daily
+58,Mondongo Soup,,,5.5,wednesday,,daily
+59,Chicken Fricassee,Fricasse de Pollo,,8,wednesday,,daily
+60,Shredded Beef Cuban Style,Ropa Vieja,,8.5,wednesday,,daily
+61,Breaded Pork Loin.,Lomo de Cerdo Escalop,,8.5,wednesday,,daily
+62,Tuna Steak in Red Peppers Sauce,Atún Steak en Salsa de Pimientos,,12,wednesday,,daily
+63,Chicken and Beef Mix Soup,Sopa Cruzado de Res y Pollo,,5.5,thursday,,daily
+64,Baked Pork Ribs,Costillas al Horno,,8,thursday,,daily
+65,Yellow Rice with Chicken,Arroz Amarillo con Pollo,,8,thursday,,daily
+66,Pepper Steak,Salteado de Res,,8.5,thursday,,daily
+67,Baked Beef Brisket,Carne Horneada a la Cubana,,8.5,thursday,,daily
+68,Fish in Lime Sauce,Pescado al Limón,,9,thursday,,daily
+69,Fish Soup,Sopa de Pescado,,6.5,friday,,daily
+70,Boneless Fried Chicken Chunks,Chicharrón de Pollo,,8,friday,,daily
+71,Pork Fricasse Stew,Fricasse de Cerdo,,8,friday,,daily
+72,Rice with Squids in their Own Ink,Arroz con Calamares en su Tinta,,8,friday,,daily
+73,Shredded Beef Sauted with Onions,Vaca Frita,,8.5,friday,,daily
+74,Breaded Fish,Pescado Empanizado,,9,friday,,daily
+75,Beef Soup,Sopa de Res,,5.5,saturday,,daily
+76,Yellow Pork Rice,Arroz Amarillo con Cerdo,,8,saturday,,daily
+77,Baked Pork Ribs, Costillas de Cerdo al Horno,,8,saturday,,daily
+78,Grounded Beef Cuban Style,Picadillo de Res a la Habanera,,8,saturday,,daily
+79,Italian Style Liver,Hígado a la Italiana,,8,saturday,,daily
+80,Chicken Breast Spain Style,Pollo a la Española,,8.5,saturday,,daily
+81,Shrimps in Ceole Sauce,Camarones Enchilados,,13,saturday,,daily

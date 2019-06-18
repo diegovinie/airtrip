@@ -13,4 +13,24 @@
     background-color: $primary;
     background-repeat: no-repeat;
   }
+
+  &-section {
+    & .title {
+      text-align: center;
+      color: #fff;
+      margin: 1rem;
+      // padding: 1rem;
+    }
+
+    &-category {
+      background-color: $secondary-light;
+      color: $primary;
+
+      & .title {
+        color: $secondary;
+        font-size: 2rem;
+        text-align: left;
+      }
+    }
+  }
 }
