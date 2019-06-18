@@ -36,11 +36,14 @@ const MenuPage = () => {
    <Dish
     key={`dish-${p}`}
     title={dish.title}
+    subtitle={dish.subtitle}
+    content={dish.content}
+    price={dish.price}
     />
  ))
 
   return (
-    <div className="MenuPage-container container columns">
+    <div className="MenuPage-container">
       <header className="MenuPage-header">
         Hola
       </header>

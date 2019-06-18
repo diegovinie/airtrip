@@ -1,7 +1,62 @@
+@import '../../../scss/variables';
+
 .MenuPageDish {
   &-container {
-    background-color: rgba(125, 0, 125, 0.3);
-    height: 100px;
-    margin-bottom: 1rem;
+    background-color: $secondary-light;
+    // height: 100px;
+    // margin-bottom: 1rem;
+    padding: 1rem 1rem;
+    color: $primary;
+    display: flex;
+    width: 100%;
+    position: relative;
   }
+
+  &-divider {
+    position: absolute;
+    bottom: 0;
+    border: solid 1px $secondary;
+    width: 90%;
+    left: auto;
+    right: auto;
+    height: 0;
+    opacity: 0.5;
+  }
+
+  &-description {
+    flex: 1 1 auto;
+    padding-bottom: 2rem;
+
+    &-header {
+      &-subtitle {
+        color: $secondary;
+      }
+    }
+
+    &-content {
+      color: $secondary;
+    }
+  }
+
+  &-aside {
+    display: flex;
+    flex-direction: column;
+    // border-bottom: solid 1px $secondary;
+
+    &-price {
+      flex: 1;
+      font-size: 1.3rem;
+      color: $primary;
+      white-space: nowrap;
+    }
+
+    &-photo {
+      flex: 1 0 1rem;
+      text-align: right;
+      font-size: 1.3rem;
+      // color: $secondary !important;
+    }
+  }
+
+
 }

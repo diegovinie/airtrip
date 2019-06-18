@@ -1,6 +1,9 @@
+@import '../../../scss/variables';
+
 .TheMenu {
   &-container {
-    background-color: rgba(0, 105, 0, 0.70);
+    // background-color: rgba(0, 105, 0, 0.70);
+    background-color: $primary-dark;
     margin: 0;
     padding: 1rem;
   }
@@ -12,7 +15,7 @@
       flex: 0 1 auto;
       font-size: 2rem !important;
       line-height: 2rem !important;
-      color: #fff !important;
+      color: $secondary-light !important;
     }
 
     &-space {
@@ -57,7 +60,7 @@
         & span {
           margin: auto;
           text-decoration: none;
-          color: #fff !important;
+          color: $secondary-light !important;
         }
       }
     }
@@ -72,7 +75,7 @@
     &-icon {
       flex: 1 0 auto;
       font-size: 3rem !important;
-      color: #fff !important;
+      color: $secondary-light !important;
       text-align: center;
     }
   }

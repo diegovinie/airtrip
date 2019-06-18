@@ -1,5 +1,7 @@
+@import '../../../scss/variables';
+
 .TheFooter-container {
-  background-color: gray;
+  background-color: $secondary;
   // height: 4rem;
   width: 100%;
   color: #fff;
