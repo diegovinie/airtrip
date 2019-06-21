@@ -45,6 +45,10 @@ const MenuPage = () => {
       .then(dishes => { dispatch({ type: 'setDishes', dishes }) })
   }, [])
 
+  const toggleAccordion = e => {
+    e.target.parentElement.classList.toggle('is-active')
+  }
+
   const createDishView = (dish, key) =>(
    <Dish
     key={`dish-${dish.title}-${key}`}
@@ -60,26 +64,52 @@ const MenuPage = () => {
       .map(([section, sections]) => (
         <div
           key={section}
-          className="MenuPage-section" >
-          <h3 className="title">{section}</h3>
-          {Object.entries(groupBy(sections)('category'))
-            .map(([cat, cats]) => (
-              <div
-                key={cat}
-                className="MenuPage-section-category" >
-              <h4 className="title">{cat}</h4>
-                {cats.map(createDishView)}
-              </div>
-            ))}
+          className="MenuPage-section accordion is-active" >
+          <h3 onClick={toggleAccordion} className="title accordion-header toggle">{section}</h3>
+          <div className="accordion-body">
+            <div className="accordion-content">
+            {Object.entries(groupBy(sections)('category'))
+              .map(([cat, cats]) => (
+                <div
+                  key={cat}
+                  className="MenuPage-section-category" >
+                <h4 className="title">{cat}</h4>
+                  {cats.map(createDishView)}
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       ))
 
   return (
     <div className="MenuPage-container">
       <header className="MenuPage-header">
-        Hola
+        <div className="MenuPage-header-row">
+          <div className="MenuPage-header-row-col left">
+            Pick Up
+            <br />
+            305-354-2266
+          </div>
+          <div className="MenuPage-header-row-col center"></div>
+          <div className="MenuPage-header-row-col right">
+            Parking In Rear
+            <br />
+            ATM Inside
+          </div>
+        </div>
+        <div className="MenuPage-header-row">
+          <strong>Open Mon. to Sat. 7 am to 8 pm</strong>
+          <br />
+          <strong>Grand Island Square Apartments Building, 1501 NE, 167 St. North Miami Beach, Fl 33162</strong>
+        </div>
+        <div className="MenuPage-header-row">
+          All prices include taxes
+        </div>
       </header>
-      {dishesBySectionsView(state.dishes)}
+      <div className="accordions">
+        {dishesBySectionsView(state.dishes)}
+      </div>
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
+// import 'bulma-accordion'
 import App from './App'
 // state
 import {initialState, reducer} from './store/state'

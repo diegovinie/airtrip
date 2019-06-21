@@ -12,6 +12,15 @@
     background-image: url(/assets/images/logo.png);
     background-color: $primary;
     background-repeat: no-repeat;
+
+    &-row {
+      width: 100%;
+      text-align: center;
+      color: $secondary;
+      & strong {
+        color: $secondary;
+      }
+    }
   }
 
   &-section {
@@ -30,6 +39,32 @@
         color: $secondary;
         font-size: 2rem;
         text-align: left;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .MenuPage {
+    &-container {
+      max-width: 1100px;
+      min-width: 550px;
+      width: 50vw;
+      margin: auto;
+    }
+
+    &-header {
+
+    }
+
+    &-section {
+      & .title {
+
+      }
+
+      &-category {
+        // width: 66%;
+        // margin: auto;
       }
     }
   }
